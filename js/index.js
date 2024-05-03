@@ -1119,9 +1119,9 @@ function horsemove(selELarr, pick, select, redselect) {
 }
 function Checkmate() {
 	overlay.classList.remove("hidden");
-	if (activePlayer == "whiteP") {
+	if (activePlayer == "blackP") {
 		winnerText.innerHTML = `Player White wins`;
-	} else if(activePlayer == "blackP"){
+	} else if(activePlayer == "whiteP"){
 		winnerText.innerHTML = `Player Black wins`;
 	}
 }
